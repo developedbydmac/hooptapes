@@ -39,7 +39,8 @@ HoopTapes is an unofficial NBA and college-hoops alert and highlight platform, b
 - Keep scope tight. No new features or projects beyond the sprint plan; if something seems worth adding, suggest it, don't build it.
 
 ### Workflow
-- `main` is protected. Work on a branch and open a PR. Don't commit or push unless I ask.
+- Never commit to `main`. Always create a branch first and land changes through a PR.
+- Don't commit or push unless I ask.
 - Keep changes small and scoped to the request. No drive-by refactors.
 - Significant architecture choices get an ADR first. Ask me before deciding.
 - Write tests with the code and run them before saying something works.
