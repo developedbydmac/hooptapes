@@ -1,4 +1,4 @@
-# ADR-002: Two accounts (dev and prod) under AWS Organizations
+# ADR-005: Two accounts (dev and prod) under AWS Organizations
 
 - **Status:** Proposed
 - **Date:** 2026-11-03

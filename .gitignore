@@ -1,13 +1,33 @@
+# Terraform: provider downloads, state and plan files (state and plans can hold secrets).
+# .terraform.lock.hcl is NOT ignored: commit it so provider versions are pinned.
 .terraform/
 *.tfstate
 *.tfstate.*
 *.tfvars
-.env
+*.tfplan
+tfplan
+crash.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Node (Playwright and other test suites)
 node_modules/
+dist/
+coverage/
+
+# Secrets and local env
+.env
+.env.*
+*.pem
+
+# OS
 .DS_Store
-# Claude Code files stay local, never committed
+
+# Local-only files, never committed
 CLAUDE.md
 CLAUDE.local.md
 .claude/
-# Personal sprint plan stays local
-docs/PLAN.md
